@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Models (large files)
+ckpt/
+*.pt
+*.pth
+*.safetensors
+
+# Output videos
+output/
+results/
+videos/
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+.cache/
+
+# Logs
+logs/
+*.log
+
+# Temporary
+tmp/
+temp/
+cache/
+
+# Credentials
+credentials.json
+google-cloud-key.json
